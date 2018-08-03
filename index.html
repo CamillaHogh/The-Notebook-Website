@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="uft-8"/>
+  <title>The Notebook</title>
+</head>
+<body>
+  <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt=HTML5/>
+  <h1>HTML5 Notes</h1>
+  <p><b>HyperText Markup Language</b> also known as HTML, describes the structure of Web pages using markup. Unlike a scripting or programming language that uses scripts to perform functions, a markup language uses tags to identify content.
+  </br>A modern web design consist of but is not exclusive to: <i>HTML</i> for structure, <i>CSS</i> for presentation, <i>JavaScript</i> for behavior, <i>PHP</i> or similar for backend and <i>CMS</i> for content management.
+  </p>
+  <table>
+    <tr>
+      <td>Version</td>
+      <td>Year</td>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>1991</td>
+    </tr>
+    <tr>
+      <td>HTML 2.0</td>
+      <td>1995</td>
+    </tr>
+    <tr>
+      <td>HTML 3.0</td>
+      <td>1997</td>
+    </tr>
+    <tr>
+      <td>HTML 4.01</td>
+      <td>1999</td>
+    </tr>
+    <tr>
+      <td>XHTML</td>
+      <td>2000</td>
+    </tr>
+    <tr>
+      <td>HTML5</td>
+      <td>2014</td>
+    </tr>
+  </table>
+  <h2>HTML Basic</h2>
+  <h3>Tags</h3>
+  <p>HTML tags are element names surrounded by angle brackets.
+  Browsers do not display the HTML tags, but use them to render the content of the page
+  The first tag in a pair is the start tag, the second tag is the end tag. The end tag is written like the start tag, but with a forward slash inserted before the tag name.
+  HTML tags are not case sensitive.
+  </p>
+  <code>&lt;tagname&gt; content goes here... &lt;/tagname&gt;
+  </code>
+  <h3>Elements</h3>
+  <p>HTML documents are made up of HTML elements.
+  An HTML element usually consists of a start tag and end tag, with the content inserted in between. The HTML element is everything from the start tag to the end tag. Some elements have one or more attributes which further describes the element
+  </p>
+  <h4>Empty HTML Elements</h4>
+  <p>HTML elements with no content are called empty elements or void elements. They cannot contain text or other elements and have a single tag that serves to both open and close the element.
+  </p>
+  <h3>Nesting</h3>
+  <p>HTML elements can be nested (elements can contain elements). All HTML documents consist of nested HTML elements and is a key feature of HTML code. When elements contain other elements, each element must be properly nested. Whenever you use an end tag, it should correspond to the previous unclosed start tag. In other words, first open element 1, then open element 2, then close element 2, and then close element 1.
+  </p>
+  <h3>Attributes</h3>
+  <p>Attributes provides additional information about an element, while also modifying it. Attributes usually come in name/value pairs like: name="value" and are always located inside an element’s start tag.
+  Predefined (or enumerated) values must contain a value from a standard list of choices. All enumerated values should be written in lowercase letters.
+  Some attributes require a number for their value. Especially those describing size and length. A numeric value never includes a unit type, just the number and are understood to be pixels.
+  Boolean attributes don't require a value, because if the attribute is present its evaluates to true. If you do include a value, set it to the name of the attribute itself (the result is the same regardless) Boolean attributes are predefined and cannot be made up.
+  </p>
+  <h2>HTML Basic Structure</h2>
+  <h3>&lt;!DOCTYPE html></h3>
+  <p>Use &lt;DOCTYPE html> to declare your page as an HTML5 document. It must only appear once, at the top of the page (before any HTML tags). The <!DOCTYPE> declaration is not case sensitive.
+  </p>
+  <h3>&lt;html></h3>
+  <p>To specify that the following code is HTML, an &lt;html> tag should open and close the document. Every html document starts with the &lt;html> tag and ends with &lt;/html><
+  </p>
+  <h3>&lt;html lang=” “></h3>
+  <p>The lang=”en” indicates that english is the default language of the page’s content. You can also be more specific, such as &lt;html lang=”en-US” for American english or &lt;html lang=”en-GB”> for British english. A search engine could use the language specified in lang to categorize search results and screen readers might adjust the pronunciation of a word based on the language code specified.
+  </p>
+  <h3>&lt;meta charset=”utf-8” /></h3>
+  <p>HTML used to be restricted to ASCII characters, basically the letters of the english language, numerals and a few of the most common symbols. Accented characters and many everyday symbols had to be created with special character references like &copy; (for ©) Unicode creates a lot issues with special characters, so it’s standard to encode pages in UTF-8 and to save HTML files with the same encoding.
+  </p>
+  <h3>&lt;title></h3>
+  <p>Each HTML page must have a &lt;title> element. A title should be short, descriptive and unique to each page. The title appears in the title bar of the window (Chrome is one exception) and on the browser tab. The title also shows in the browser history list and bookmarks. Most importantly, the title is used by search engines and typically as the link that appears in their search results. A title cannot contain any formatting, images or links to other pages.
+  </p>
+  <h3>&lt;head></h3>
+  <p>Following the opening tag is the &lt;head> of the document. The head of an html file contains all of the non-visual elements that help make the page work.
+  </p>
+  <h3>&lt;body></h3>
+  <p>The &lt;body> tag follows the &lt;head> tag. All visual-structural elements are contained within the body tag. Headings, paragraphs, lists, quotes, images and links are some of the elements within the body tag.
+  </p>
+</body>
+</html>
